@@ -27,7 +27,6 @@
 - For example, `rand` crate provides the functionality that generates random numbers. Most of the time when the rust programmers say crates, it is a library crate* and they interchangeably call as library.
 - The crate root is the source file that Rust compiler starts from.
 - Cargo follows a convention that src/lib.rs is the crate root of a library crate with the same name as the package.
-
 - Cargo passes the crate root files to rustc to build the library or binary.
 
 ## Packages
@@ -37,3 +36,4 @@
 - A package can contain as many binary crates as you like, but only one library crate.
 - A package must contain atleast one library crate or one binary crate.
 - A package can have multiple binary crates by placing files in the src/bin directory where each file will be a separate binary crate.
+
